@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Movies from './movies';
+import HOC from './HOC.js'
 
 class App extends Component {
   constructor(props) {
@@ -114,4 +115,4 @@ closeAction=()=>{
 }
 
  
-export default App;
+export default HOC( App);

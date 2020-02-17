@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 class Movies  extends Component {
 
     render() { 
@@ -14,7 +15,9 @@ class Movies  extends Component {
                     <span> {el.rate}</span>   
                     
                     </div>   )}
-                
+                <section>   
+                    
+                </section>
           </div>
                 
 
